@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CW2 - CSCI352 (Remake)", "CW2 - CSCI352 (Remake)\CW2 - CSCI352 (Remake).csproj", "{DE72F926-F454-4A29-BB79-C74E00286328}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE72F926-F454-4A29-BB79-C74E00286328}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE72F926-F454-4A29-BB79-C74E00286328}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE72F926-F454-4A29-BB79-C74E00286328}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE72F926-F454-4A29-BB79-C74E00286328}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {55EFC2D2-1B42-4D52-9775-444F0AAFB81D}
+	EndGlobalSection
+EndGlobal
