@@ -1,6 +1,6 @@
 ﻿/* Name: Vance Brender-A-Brandis
    Date: 1/17/23
-   
+   Brief Desc.: Hello World program in C# 
 */
 
 using System;
@@ -26,12 +26,14 @@ namespace CW2___CSCI352__Remake_
         }
         static void Main(string[] args)
         {
-            Console.WriteLine("hello world!" + 5);
-            Console.WriteLine("setting steve to 4");
+            Console.WriteLine("hello world!");
+            // Console.WriteLine("setting steve to + " + 4);
+            /*
             Program p = new Program();
             p.setSteve(4);
             Console.WriteLine("Steve is " + p.getSteve());
             Console.ReadKey();
+            */
         }
     }
 }
