@@ -15,16 +15,29 @@ namespace CW2___CSCI352__Remake_
     {
         static void Main(string[] args)
         {
+            
             Console.WriteLine("This is a simple number guessing game.");
-            Console.WriteLine("I am going to think of a number between 0 and 100. Then, you will have to try and guess the number I thought up!");
+            Console.WriteLine("I am going to think of a number between a min number and a max number. You will have to provide those.");
+
+            int min;
+            int max;
+
+            Console.WriteLine("Enter a minimum number: ");
+            string userInput = Console.ReadLine();
+            min = Int32.Parse(userInput);
+
+            Console.WriteLine("Enter a maximum number: ");
+            userInput = Console.ReadLine();
+            max = Int32.Parse(userInput);
+
             Console.WriteLine("Thinking of a number...");
 
             Random rnd = new Random();
-            int num = rnd.Next(0, 100);
+            int num = rnd.Next(min, max);
 
-            Console.WriteLine("Guess the number! (0-100)");
-
-            string userInput = Console.ReadLine();
+            Console.WriteLine("Guess the number! (" + min + ", " + max + ")");
+            userInput = Console.ReadLine();
+            
             int userInputNum = Int32.Parse(userInput);
 
             int tries = 0;
