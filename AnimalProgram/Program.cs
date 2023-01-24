@@ -114,10 +114,15 @@ namespace AnimalProgram
                     int i = 1;
                     foreach (Animal ani in animals) 
                     {
-                        Console.WriteLine(i + ":");
+                        Console.WriteLine("Animal " + i + ":");
                         ani.printInfo();
                         Console.WriteLine();
                         i++;
+                    }
+
+                    if (animals.Count == 0)
+                    {
+                        Console.WriteLine("No animals in the World!\n");
                     }
                         
                 }
@@ -129,7 +134,11 @@ namespace AnimalProgram
                     {
                         ani.makeNoise();
                     }
-                
+
+                    if (animals.Count == 0)
+                    {
+                        Console.WriteLine("No animals in the World!\n");
+                    }
                 }
 
                 // Age up animals
@@ -139,6 +148,11 @@ namespace AnimalProgram
                     foreach (Animal ani in animals)
                     {
                         ani.ageUp();
+                    }
+
+                    if (animals.Count == 0)
+                    {
+                        Console.WriteLine("No animals in the World!\n");
                     }
                 }
 
