@@ -54,30 +54,98 @@ namespace AnimalProgram
                         animalChoice = Int32.Parse(Console.ReadLine());
                         Console.WriteLine();
                     }
+
+                    // animal selections
+                    // Cat
+                    if (animalChoice == 1)
+                    {
+                        Console.WriteLine("What is the name of your Cat?");
+                        string animalName = Console.ReadLine();
+                        Console.WriteLine("What is the age of " + animalName + "?");
+                        int animalAge = Int32.Parse(Console.ReadLine());
+                        Console.WriteLine("What is " + animalName + "'s weight in pounds? (e.g. 13.52)");
+                        float animalWeight = float.Parse(Console.ReadLine());
+                        Console.WriteLine();
+
+                        Cat c = new Cat(animalName, animalAge, animalWeight);
+                        animals.Add(c);
+
+                        Console.WriteLine("Added your Cat to the World!\n");
+                    }
+
+                    // Cassowary
+                    else if (animalChoice == 2) 
+                    {
+                        Console.WriteLine("What is the name of your Cassowary?");
+                        string animalName = Console.ReadLine();
+                        Console.WriteLine("What is the age of " + animalName + "?");
+                        int animalAge = Int32.Parse(Console.ReadLine());
+                        Console.WriteLine("What is " + animalName + "'s weight in pounds? (e.g. 133.24)");
+                        float animalWeight = float.Parse(Console.ReadLine());
+                        Console.WriteLine();
+
+                        Cassowary cass = new Cassowary(animalName, animalAge, animalWeight);
+                        animals.Add(cass);
+
+                        Console.WriteLine("Added your Cassowary to the World!\n");
+                    }
+
+                    // Hippo
+                    else
+                    {
+                        Console.WriteLine("What is the name of your Hippo?");
+                        string animalName = Console.ReadLine();
+                        Console.WriteLine("What is the age of " + animalName + "?");
+                        int animalAge = Int32.Parse(Console.ReadLine());
+                        Console.WriteLine("What is " + animalName + "'s weight in pounds? (e.g. 557.21)");
+                        float animalWeight = float.Parse(Console.ReadLine());
+                        Console.WriteLine();
+
+                        Hippo hippo = new Hippo(animalName, animalAge, animalWeight);
+                        animals.Add(hippo);
+
+                        Console.WriteLine("Added your Hippo to the World!\n");
+                    }
                 }
 
                 // Print info
                 else if (choice == 2) 
-                { 
-                
+                {
+                    int i = 1;
+                    foreach (Animal ani in animals) 
+                    {
+                        Console.WriteLine(i + ":");
+                        ani.printInfo();
+                        Console.WriteLine();
+                        i++;
+                    }
+                        
                 }
 
                 // Listen to the noises
                 else if (choice == 3) 
                 {
+                    foreach (Animal ani in animals)
+                    {
+                        ani.makeNoise();
+                    }
                 
                 }
 
                 // Age up animals
                 else if (choice == 4)
                 {
-
+                    Console.WriteLine("Aging each animal up by one year...\n");
+                    foreach (Animal ani in animals)
+                    {
+                        ani.ageUp();
+                    }
                 }
 
                 // Exit
                 else
                 {
-                    Console.WriteLine("Exiting...")
+                    Console.WriteLine("Exiting...");
                 }
             }
         }
