@@ -5,7 +5,7 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CW2 - CSCI352 (Remake)", "CW2 - CSCI352 (Remake)\CW2 - CSCI352 (Remake).csproj", "{DE72F926-F454-4A29-BB79-C74E00286328}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimalProgram", "AnimalProgram\AnimalProgram.csproj", "{029361EA-037C-4679-871C-252AF540B458}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PA 1", "AnimalProgram\PA 1.csproj", "{029361EA-037C-4679-871C-252AF540B458}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
