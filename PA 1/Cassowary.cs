@@ -20,14 +20,14 @@ namespace AnimalProgram
             setName(name);
             setAge(age);
             setWeight(weight);
-            setNoise("urra");
+            setNoise("screech");
         }
 
         // Overrided makeNoise() function for Cassowary child class
         // Purpose: Prints noise the animal makes to the console
         public override void makeNoise()
         {
-            Console.WriteLine(getName() + " " + getNoise() + "s!");
+            Console.WriteLine(getName() + " the Cassowary " + getNoise() + "es!");
         }
 
         // Overrided ageUp() function for Cassowary child class
@@ -41,10 +41,11 @@ namespace AnimalProgram
         // Purpose: Prints Name, Age, Weight, and the noise the Cassowary makes to console
         public override void printInfo()
         {
-            Console.WriteLine("Name: " + getName());
-            Console.WriteLine("Age: " + getAge());
-            Console.WriteLine("Weight: " + getWeight());
-            Console.WriteLine("Noise: " + getNoise());
+            Console.WriteLine("* Type: Cassowary");
+            Console.WriteLine("* Name: " + getName());
+            Console.WriteLine("* Age: " + getAge());
+            Console.WriteLine("* Weight: " + getWeight());
+            Console.WriteLine("* Noise: " + getNoise());
         }
     }
 }

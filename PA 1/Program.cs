@@ -115,6 +115,7 @@ namespace AnimalProgram
                 // Print info of Animals
                 else if (choice == 2) 
                 {
+                    Console.WriteLine("Here are the animals in your World:\n");
                     int i = 1;
                     foreach (Animal ani in animals) 
                     {
@@ -143,6 +144,7 @@ namespace AnimalProgram
                     {
                         Console.WriteLine("No animals in the World!\n");
                     }
+                    Console.WriteLine();
                 }
 
                 // Age up all animals

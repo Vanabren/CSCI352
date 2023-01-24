@@ -27,7 +27,7 @@ namespace AnimalProgram
         // Purpose: Prints noise the animal makes to the console
         public override void makeNoise()
         {
-            Console.WriteLine(getName() + " " + getNoise() + "s!");
+            Console.WriteLine(getName() + " the Cat " + getNoise() + "s!");
         }
 
         // Overrided ageUp() function for Cat child class
@@ -41,10 +41,11 @@ namespace AnimalProgram
         // Purpose: Prints Name, Age, Weight, and the noise the Cat makes to console
         public override void printInfo()
         {
-            Console.WriteLine("Name: " + getName());
-            Console.WriteLine("Age: " + getAge());
-            Console.WriteLine("Weight: " + getWeight());
-            Console.WriteLine("Noise: " + getNoise());
+            Console.WriteLine("* Type: Cat");
+            Console.WriteLine("* Name: " + getName());
+            Console.WriteLine("* Age: " + getAge());
+            Console.WriteLine("* Weight: " + getWeight());
+            Console.WriteLine("* Noise: " + getNoise());
         }
     }
 }

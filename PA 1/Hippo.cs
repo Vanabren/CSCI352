@@ -20,14 +20,14 @@ namespace AnimalProgram
             setName(name);
             setAge(age);
             setWeight(weight);
-            setNoise("erff");
+            setNoise("grunt");
         }
 
         // Overrided makeNoise() function for Hippo child class
         // Purpose: Prints noise the animal makes to the console
         public override void makeNoise()
         {
-            Console.WriteLine(getName() + " " + getNoise() + "s!");
+            Console.WriteLine(getName() + " the Hippo " + getNoise() + "s!");
         }
 
         // Overrided ageUp() function for Hippo child class
@@ -41,10 +41,11 @@ namespace AnimalProgram
         // Purpose: Prints Name, Age, Weight, and the noise the Hippo makes to console
         public override void printInfo()
         {
-            Console.WriteLine("Name: " + getName());
-            Console.WriteLine("Age: " + getAge());
-            Console.WriteLine("Weight: " + getWeight());
-            Console.WriteLine("Noise: " + getNoise());
+            Console.WriteLine("* Type: Hippo");
+            Console.WriteLine("* Name: " + getName());
+            Console.WriteLine("* Age: " + getAge());
+            Console.WriteLine("* Weight: " + getWeight());
+            Console.WriteLine("* Noise: " + getNoise());
         }
     }
 }
