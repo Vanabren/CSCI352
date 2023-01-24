@@ -1,4 +1,8 @@
-﻿using System;
+﻿// Name: Vance Brender-A-Brandis
+// Date: 1/24/23
+// Description: Main driver for Animal Program with menu
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -55,8 +59,8 @@ namespace AnimalProgram
                         Console.WriteLine();
                     }
 
-                    // animal selections
-                    // Cat
+                    // animal selections :
+                    // Add Cat
                     if (animalChoice == 1)
                     {
                         Console.WriteLine("What is the name of your Cat?");
@@ -73,7 +77,7 @@ namespace AnimalProgram
                         Console.WriteLine("Added your Cat to the World!\n");
                     }
 
-                    // Cassowary
+                    // Add Cassowary
                     else if (animalChoice == 2) 
                     {
                         Console.WriteLine("What is the name of your Cassowary?");
@@ -90,7 +94,7 @@ namespace AnimalProgram
                         Console.WriteLine("Added your Cassowary to the World!\n");
                     }
 
-                    // Hippo
+                    // Add Hippo
                     else
                     {
                         Console.WriteLine("What is the name of your Hippo?");
@@ -108,7 +112,7 @@ namespace AnimalProgram
                     }
                 }
 
-                // Print info
+                // Print info of Animals
                 else if (choice == 2) 
                 {
                     int i = 1;
@@ -127,7 +131,7 @@ namespace AnimalProgram
                         
                 }
 
-                // Listen to the noises
+                // Listen to the noises of each animal
                 else if (choice == 3) 
                 {
                     foreach (Animal ani in animals)
@@ -141,7 +145,7 @@ namespace AnimalProgram
                     }
                 }
 
-                // Age up animals
+                // Age up all animals
                 else if (choice == 4)
                 {
                     Console.WriteLine("Aging each animal up by one year...\n");

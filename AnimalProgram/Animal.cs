@@ -1,6 +1,6 @@
 ﻿// Name: Vance Brender-A-Brandis
 // Date: 1/24/23
-// Description: Abstract animal class
+// Description: Abstract Animal class definition and implementation
 
 using System;
 using System.Collections.Generic;
@@ -12,10 +12,10 @@ namespace AnimalProgram
 {
     public abstract class Animal
     {
-        private string name;
-        private int age;
-        private string noise;
-        private float weight;
+        private string name; // Name of animal
+        private int age; // Age of animal
+        private string noise; // Noise the animal makes
+        private float weight; // Weight (in pounds) of the animal
 
         // Name var accessor
         public string getName()
