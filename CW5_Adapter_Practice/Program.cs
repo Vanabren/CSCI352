@@ -19,14 +19,20 @@ namespace CW5_Adapter_Practice
             BearAdapter baBear = new BearAdapter(gBear);
 
             // Grizzly bear functions
+            Console.WriteLine("|| Grizzly bear functions showcase: ||");
             gBear.hibernate();
             gBear.maul();
+            Console.WriteLine();
 
             // Teddy bear functions
+            Console.WriteLine("|| Teddy bear functions showcase: ||");
             tBear.hug();
+            Console.WriteLine();
 
             // Bear adapter functions
+            Console.WriteLine("|| Bear adapter (adapting from Grizzly bear) functions showcase: ||");
             baBear.hug();
+            Console.WriteLine();
         }
     }
 }
