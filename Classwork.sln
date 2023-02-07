@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CW2", "CW2\CW2.csproj", "{D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PA 1", "PA 1\PA 1.csproj", "{029361EA-037C-4679-871C-252AF540B458}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CW5_Adapter_Practice", "CW5_Adapter_Practice\CW5_Adapter_Practice.csproj", "{0A755B2C-AD0E-4A9A-88AF-C9898F33C03C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{029361EA-037C-4679-871C-252AF540B458}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{029361EA-037C-4679-871C-252AF540B458}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{029361EA-037C-4679-871C-252AF540B458}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A755B2C-AD0E-4A9A-88AF-C9898F33C03C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A755B2C-AD0E-4A9A-88AF-C9898F33C03C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A755B2C-AD0E-4A9A-88AF-C9898F33C03C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A755B2C-AD0E-4A9A-88AF-C9898F33C03C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
