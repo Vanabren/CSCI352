@@ -1,4 +1,4 @@
-﻿# CW5 Adapter Practice # 
+﻿# CW5 Adapter Practice by Vance Brender-A-Brandis #
 
 ## Description ##
 - The project fulfills the instructions of an assignment focusing on introducing the Adapter structural design pattern.
